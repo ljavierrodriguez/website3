@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+/* 
+
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0;
+
+margin: 10px; trbl
+margin: 10px 10px; tb rl
+margin: 10px 10px 10px; t rl b
+margin: 10px 10px 10px 10px; t r b l
+
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 0;
+
+padding: 10px; trbl
+padding: 10px 10px; tb rl
+padding: 10px 10px 10px; t rl b
+padding: 10px 10px 10px 10px; t r b l
+
+
+
+
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+#home {
+    width: 100vw;
+    height: auto;
+}
+
+#home .home__contenedor {
+    width: 100%;
+    height: auto;
+}
+
+#home .home__contenedor .home__contenedor__header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__logo{
+    font-family: 'Tilt Prism';
+    text-align: center;
+    width: 15%;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu {
+    width: 70%;
+    font-size: 12px;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu ul {
+    width: 100%;
+    font-size: 12px;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu li{
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 12px !important;
+    color: black;
+    width: 100px;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu li a:hover {
+    color: blueviolet;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__menu li a.active {
+    color: blueviolet;
+}
+
+#home .home__contenedor .home__contenedor__header .home__contenedor__header__action {
+    width: 15%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#home .home__contenedor__banner {
+    width: 100%;
+    height: 400px;
+    background-image: url('./../img/fondo.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#home .home__contenedor__banner .home__contenedor__banner__title {
+    font-size: 50px !important;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#home .home__contenedor__banner .home__contenedor__banner__subtitle {
+    font-size: 18px !important;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.button--blueviolet {
+    background-color: blueviolet;
+    color: white;
+}
+
+.button--greenyellow {
+    background-color: greenyellow;
+    color: grey;
+}
